@@ -1,0 +1,84 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --gray: hsl(0, 0%, 42%);
+    --black-basically: hsl(0, 0%, 7%)
+}
+
+body {
+    font-family: Figtree;
+    font-weight: 500;
+    background-color: var(--yellow);
+    height: 95svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--black-basically);
+}
+
+p {
+    margin: 0;
+    margin: .5em 0;
+}
+
+.blog-card {
+    width: 330px;
+    background-color: white;
+    border: 1px solid var(--black-basically);
+    border-radius: 1em;
+    box-shadow: .5em .5em var(--black-basically);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.hero-image {
+    border-radius: 1em;
+    width: auto;
+    object-fit: cover;
+}
+
+.status {
+    background-color: var(--yellow);
+    padding: .5em;
+    margin-top: 1em;
+    width: fit-content;
+    border-radius: .25em;
+    font-weight: 800;
+}
+
+.date {
+    margin-top: .25em;
+    font-size: 16px;
+}
+
+.title {
+    margin: .5em 0;
+    font-weight: 800;
+    font-size: 1.3rem;
+    transition: .1s ease-in-out;
+}
+
+.title:hover {
+    color: var(--yellow);
+}
+
+.info {
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.instructor-info {
+    display: flex;
+    align-items: center;
+    margin: .5em 0;
+}
+
+.instructor-picture {
+    width: 2.2em;
+}
+
+.instructor-name {
+    font-weight: 800;
+    padding-left: .5em;
+}
