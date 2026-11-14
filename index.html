@@ -4,19 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
   <title>Frontend Mentor | Blog preview card</title>
 
   <style>
-    .attribution { 
-      font-size: 0.6875rem; 
-      text-align: center; 
-      margin-top: 20px;
-    }
-    .attribution a { 
-      color: hsl(228, 45%, 44%); 
-    }
-
     :root {
       --yellow: hsl(47, 88%, 63%);
       --gray: hsl(0, 0%, 42%);
@@ -24,6 +19,7 @@
     }
 
     body {
+      font-family: Figtree;
       background-color: var(--yellow);
       height: 90lvh;
       display: flex;
@@ -50,7 +46,6 @@
 
     .hero-image {
       border-radius: 20px;
-      height: 230px;
       width: auto;
       object-fit: cover;
     }
@@ -128,10 +123,5 @@
       <p class="instructor-name">Greg Hooper</p>
     </div>
   </div>
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/new-git-stack">Obeten samuel</a>.
-  </footer>
 </body>
 </html>
