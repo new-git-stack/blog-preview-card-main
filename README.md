@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/new-git-stack/blog-preview-card-main](https://your-solution-url.com)
+- Live Site URL: [https://tiny-beijinho-3fd538.netlify.app/](https://your-live-site-url.com)
 
 ## My process
 
@@ -41,17 +41,11 @@ Users should be able to:
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
-
-
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ## Author
 
 - Website - [Obeten Samuel](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Github - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [@new-git-stack](https://github.com/new-git-stack)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
