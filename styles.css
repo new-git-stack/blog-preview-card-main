@@ -5,18 +5,18 @@
 }
 
 body {
-    font-family: Figtree;
+    font-family: Figtree, sans-serif;
     font-weight: 500;
     background-color: var(--yellow);
     min-height: 100svh;
     margin: 0;
+    padding: 1rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: var(--black-basically);
-    padding: 1rem;
 }
 
 p {
@@ -32,26 +32,27 @@ p {
     display: flex;
     flex-direction: column;
     padding: 1em;
+    box-sizing: border-box;
 }
 
 .hero-image {
     border-radius: 1em;
-    width: auto;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .status {
     background-color: var(--yellow);
     padding: .5em;
-    margin-top: 1em;
+    margin-block-start: 1em;
     width: fit-content;
     border-radius: .25em;
     font-weight: 800;
 }
 
 .date {
-    margin-top: .25em;
-    font-size: 16px;
+    margin-block-start: .25em;
+    font-size: 1rem;
 }
 
 .title {
@@ -82,7 +83,7 @@ p {
 
 .instructor-name {
     font-weight: 800;
-    padding-left: .5em;
+    padding-inline-start: .5em;
 }
 
 @media (prefers-reduced-motion: reduce) {
