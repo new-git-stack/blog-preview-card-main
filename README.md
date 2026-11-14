@@ -12,7 +12,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -44,6 +43,4 @@ Users should be able to:
 - Website - [Obeten Samuel](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Github - [@new-git-stack](https://github.com/new-git-stack)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
